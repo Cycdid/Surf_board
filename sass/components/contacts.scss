@@ -1,0 +1,18 @@
+.contacts {
+	display: flex;
+	align-items: center;
+
+	&__inner {
+		align-self: flex-end;
+	}
+
+	&__icon {
+		width: 13px;
+		height: 14px;
+		margin-right: 6px;
+	}
+
+	&__number {
+		font-size: 22px;
+	}
+}

@@ -1,0 +1,34 @@
+
+.hero {
+	background: url(./../img/bg/hero-bg.jpg) 0 0/cover no-repeat, rgba(0, 0, 0, 0.25);
+	background-blend-mode: overlay;
+	border: 1px solid #000000;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-content: space-between;
+	
+	&__conteiner{
+		display: flex;
+		flex-direction: column;
+		align-content: space-between;
+		height: 100%;
+		padding: 28px 0 61px;
+	}
+
+	&__content {
+		width: 40%;
+	}
+
+	&__title {
+		margin-bottom: 17px;
+		color: #fff;
+		text-align: left;
+	}
+
+	&__desc {
+		font-size: 21px;
+		margin-bottom: 39px;
+	}
+
+}

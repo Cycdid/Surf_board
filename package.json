@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  },
+  "name": "surf_board",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "sass --watch ./sass/main.scss ./css/main.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
